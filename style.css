@@ -1,0 +1,37 @@
+
+:root
+{
+    --primary:#2ecc71;
+    --secondary:#27ae60;
+    --black:#343a40;
+    --dark:#6c757d;
+    --white:#ffffff;
+    --light:#f8f9fa;
+}
+#nav
+{
+    background:#27ae60 !important;
+}
+
+#mybutton
+{
+    color:#343a40;
+    background: #2ecc71;
+    border-color: #2ecc71;
+}
+#mybutton:hover
+{
+    background: #27ae60;
+}
+
+.h3
+{
+    padding-top: 20px;
+}
+
+pre
+{
+    font-size: 18px;
+    color:#f8f9fa;
+    background: #343a40;
+}
