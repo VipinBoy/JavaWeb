@@ -66,7 +66,7 @@
     for (let i = 0; i < programData17.length; i++) {
 
         document.write("<div id='string'>");
-        // if (i != 13 && i != 14 && i != 45 && i != 46)
+        if (programData17[i].comeout != null)
         {
             document.write("<div class='h3 '>"+programData17[i].problem+"</div>")
             document.write("<pre>"+programData17[i].solution+"</pre>")
@@ -85,6 +85,7 @@
         {
             document.write("<div class='h3 '>"+programData16[i].problem+"</div>")
             document.write("<pre>"+programData16[i].solution+"</pre>")
+            document.write("<img src="+programData16[i].comeout+" />")
         }
         document.write("</div>");
     }
@@ -112,6 +113,7 @@
         {
             document.write("<div class='h3 '>"+programData14[i].problem+"</div>")
             document.write("<pre>"+programData14[i].solution+"</pre>")
+            document.write("<img src="+programData14[i].comeout+" />")
         }
         document.write("</div>");
     }
