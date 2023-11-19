@@ -1,3 +1,3 @@
 # Project Done
 
-hosted : vipinboy.github.io/JavaWeb/
+hosted : https://vipinboy.github.io/JavaWeb/
